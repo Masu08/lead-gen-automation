@@ -1,3 +1,9 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 import requests
 
 GROQ_API_KEY = "YOUR_GROQ_API_KEY"
